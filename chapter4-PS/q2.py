@@ -1,0 +1,21 @@
+marks=[]
+
+m1=int(input("Enter your English marks:"))
+marks.append(m1)
+m2=int(input("Enter your Science marks:"))
+marks.append(m2)
+m3=int(input("Enter your Maths marks:"))
+marks.append(m3)
+m4=int(input("Enter your Hindi marks:"))
+marks.append(m4)
+m5=int(input("Enter your Marathi marks:"))
+marks.append(m5)
+m6=int(input("Enter your History marks:"))
+marks.append(m6)
+m7=int(input("Enter your Geography marks:"))
+marks.append(m7)
+
+marks.sort()
+print("Subject wise marks are:",marks)
+result=(m1+m2+m3+m4+m5+m6+m7)
+print("The total marks is : ",result)
